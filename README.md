@@ -23,15 +23,21 @@ This bot was built using Python 3.7.3 and Rasa 1.10.3 versions. I recommend usin
 
 ## Usage
 To use this bot, follow the below steps:
-1. Train the Rasa model:
+1. Change the Rapid API key to your own key in actions.py and get_countries.py
+
+2. Train the Rasa model:
 ```
 rasa train
 ```
-2. In one terminal window, run the actions.py file (Change the Rapid API key to your own key)
+3. Test the Rasa model after training:
+```
+rasa train
+```
+4. In one terminal window, run the actions.py file
 ```
 rasa run actions
 ```
-3. In another terminal window, run the shell to interact with your bot
+5. In another terminal window, run the shell to interact with your bot
 ```
 rasa shell
 ```
