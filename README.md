@@ -41,8 +41,7 @@ rasa run actions
 ```
 rasa shell
 ```
-
-To have a conversation with the bot, see sample story paths in tests/conversation_tests.md
+6. To have a conversation with the bot, see sample story paths in tests/conversation_tests.md and training data in data/nlu.md
 
 
 
