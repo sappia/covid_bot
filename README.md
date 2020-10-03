@@ -43,5 +43,7 @@ rasa shell
 ```
 6. To have a conversation with the bot, see sample story paths in tests/conversation_tests.md and training data in data/nlu.md
 
-
-
+## Future work
+* A UI to interact with the bot
+* RASA forms for bot to ask more information from user about their query
+* Integrate bot with a messenger app like slack
